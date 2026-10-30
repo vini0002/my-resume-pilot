@@ -1,0 +1,27 @@
+Job Title: Senior Data Engineer
+Company: Monolith Financial Analytics
+Location: London (Hybrid - 1 day/week office)
+Salary: £85,000 - £100,000 + Bonus + Pension
+
+About the Role:
+We are looking for an experienced Senior Data Engineer to join our growing Core Data Platform team. You will be responsible for scaling our streaming and batch data architectures, ingesting data from global financial exchanges, and powering mission-critical real-time analytics.
+
+Key Responsibilities:
+- Design, build, and optimize scalable real-time streaming pipelines using Apache Kafka and Apache Spark.
+- Maintain and enhance cloud data warehouse models in Snowflake using dbt and advanced SQL.
+- Orchestrate end-to-end data workflows with Apache Airflow and implement automated data quality testing.
+- Partner with quantitative analysts and data scientists to productionize ML feature pipelines.
+- Collaborate with platform engineering to provision infrastructure as code via Terraform and Kubernetes.
+
+Requirements:
+- 4+ years of hands-on data engineering experience in cloud environments (AWS preferred).
+- Deep expertise in Python and advanced SQL.
+- Strong practical experience with distributed computing (Apache Spark / PySpark).
+- Proven track record with Kafka event streaming architectures.
+- Experience with modern data stack tools: dbt, Snowflake, Airflow.
+- Commitment to data testing and data reliability practices.
+
+Nice to Have:
+- Experience in financial services or high-throughput event processing.
+- Familiarity with CI/CD, Docker, and Kubernetes.
+

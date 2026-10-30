@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+\definecolor{primary}{RGB}{0, 75, 135}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,      
+    urlcolor=primary,
+}
+
+\titleformat{\section}{\large\bfseries\color{primary}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, itemsep=3pt, parsep=0pt}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{JORDAN REID}} \\ \vspace{6pt}
+    {\large \textbf{Full Stack / Backend Software Engineer | Distributed Systems \textbullet{} APIs \textbullet{} Cloud}} \\ \vspace{8pt}
+    London, UK \quad|\quad +44 7987 654321 \quad|\quad \href{mailto:jordan.reid@example.com}{jordan.reid@example.com} \\ \vspace{4pt}
+    \href{https://jordanreid.dev}{jordanreid.dev} \quad|\quad \href{https://linkedin.com/in/jordan-reid-dev}{linkedin.com/in/jordan-reid-dev} \quad|\quad \href{https://github.com/jordanreid}{github.com/jordanreid}
+\end{center}
+
+\section*{PROFESSIONAL SUMMARY}
+Software Engineer with 4+ years of experience engineering high-throughput backend services, REST/GraphQL APIs, and cloud-native applications. Proven track record architecting microservices handling \textbf{500,000+ daily active users}, reducing p99 API latency by \textbf{60\%}, and accelerating engineering deployment velocity from bi-weekly to daily via automated CI/CD pipelines. Core strengths in Go, TypeScript, Python, Node.js, PostgreSQL, Docker, and AWS. Available immediately; full UK work authorisation.
+
+\section*{CORE SKILLS}
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Languages} & Go, TypeScript, JavaScript, Python, SQL, HTML5/CSS3 \\
+\textbf{Frameworks \& Libraries} & Node.js, Express, React, Next.js, FastAPI, gRPC \\
+\textbf{Databases \& Caching} & PostgreSQL, Redis, DynamoDB, MongoDB \\
+\textbf{Cloud \& DevOps} & AWS (EC2, S3, Lambda, ECS), Docker, Kubernetes, Terraform, GitHub Actions \\
+\textbf{Architecture} & Microservices, Event-Driven Architecture, REST/GraphQL, Domain-Driven Design \\
+\end{tabularx}
+
+\section*{PROFESSIONAL EXPERIENCE}
+
+\textbf{Software Engineer --- Backend \& Distributed Systems} \hfill \textbf{Mar 2023 -- Present} \\
+\textit{FinTech Solutions Ltd} \hfill London, UK
+\begin{itemize}
+    \item Architected core payments microservice in Go and PostgreSQL, processing \textbf{1.2M transactions weekly} with 99.99\% uptime.
+    \item Implemented Redis distributed caching and query indexing, reducing p99 API response latency from \textbf{480ms to 120ms (75\% improvement)}.
+    \item Automated CI/CD pipeline using GitHub Actions and Terraform, shrinking staging-to-production deployment cycles from 2 hours to 14 minutes.
+    \item Designed asynchronous event messaging with Apache Kafka and RabbitMQ, isolating critical payment transactions from non-critical logging.
+\end{itemize}
+\vspace{8pt}
+
+\textbf{Full Stack Developer} \hfill \textbf{Jan 2021 -- Feb 2023} \\
+\textit{Digital Commerce Agency} \hfill Bristol, UK
+\begin{itemize}
+    \item Developed customer portal using React, TypeScript, and Node.js serving \textbf{250,000+ registered customers}.
+    \item Migrated monolithic API endpoints into serverless AWS Lambda microservices, decreasing idle cloud server costs by \textbf{\pounds24,000 annually}.
+    \item Authored automated test suites with Jest and Playwright, lifting test coverage from 45\% to 88\% and cutting regression bug escapes by \textbf{40\%}.
+\end{itemize}
+
+\section*{KEY ACHIEVEMENTS}
+\begin{itemize}
+    \item Scaled backend transaction service to handle \textbf{1.2M weekly transactions} at 99.99\% reliability.
+    \item Slashed API p99 latency by \textbf{75\%} across high-traffic customer endpoints.
+    \item Saved \textbf{\pounds24,000/year} in infrastructure costs through serverless modernization.
+\end{itemize}
+
+\section*{EDUCATION}
+\textbf{BSc Computer Science} \hfill \textit{2017 -- 2020} \\
+University of Bristol \hfill \textit{First Class Honours}
+
+\section*{AVAILABILITY \& WORK AUTHORISATION}
+\textbf{Right to Work:} Full UK work authorisation --- no sponsorship required \\
+\textbf{Availability:} Available immediately for permanent and contract opportunities \\
+\textbf{Location:} London, UK --- open to hybrid and remote roles nationally
+
+\end{document}
+

@@ -1,0 +1,39 @@
+# ==============================================================================
+# AI Resume Pilot Configuration
+# Customize this file for your name, domain/field, and target career preferences.
+# ==============================================================================
+
+candidate:
+  first_name: "Alex"
+  last_name: "Taylor"
+  title: "Data Engineer | Distributed Systems & Cloud ETL"
+  email: "alex.taylor@example.com"
+  phone: "+44 7123 456789"
+  location: "London, UK"
+  website: "https://alextaylor.dev"            # Optional (leave blank or remove if not applicable)
+  linkedin: "https://linkedin.com/in/alex-taylor-de"
+  github: "https://github.com/alextaylor-data" # Highly recommended for technical & data roles
+
+work_authorization:
+  # Candidate-centric status statement that appears in the CV
+  right_to_work: "Full UK work authorisation — no sponsorship required"
+  availability: "Available immediately for permanent and contract engagements"
+  location_preference: "London, UK — open to hybrid and remote roles nationally"
+
+naming_conventions:
+  # Output file prefix (e.g. Alex_Taylor_CV_Google.tex)
+  cv_prefix: "Alex_Taylor_CV"
+  cover_letter_prefix: "CoverLetter"
+
+overleaf_sync:
+  # Set to true if you want to push tailored .tex files directly to Overleaf via git
+  enabled: false
+  # sync_folder: "latex_sync" # Subfolder copied to Overleaf repo if applicable
+  # remote_name: "overleaf"
+  # branch: "main"
+
+tailoring_preferences:
+  default_currency: "GBP"    # e.g. GBP (£), USD ($), EUR (€)
+  max_page_count: 1          # 1 page recommended for industry, 2 for senior/academic
+  strict_anti_hallucination: true # Never invent numbers, dates, or credentials
+

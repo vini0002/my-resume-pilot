@@ -1,0 +1,89 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+\definecolor{primary}{RGB}{0, 75, 135}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,      
+    urlcolor=primary,
+}
+
+\titleformat{\section}{\large\bfseries\color{primary}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{1ex plus .2ex}
+
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, nosep, itemsep=3pt, parsep=0pt}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{ALEX TAYLOR}} \\ \vspace{6pt}
+    {\large \textbf{Senior Data Engineer | Distributed Systems \textbullet{} Apache Spark \textbullet{} Cloud ETL}} \\ \vspace{8pt}
+    London, UK \quad|\quad +44 7123 456789 \quad|\quad \href{mailto:alex.taylor@example.com}{alex.taylor@example.com} \\ \vspace{4pt}
+    \href{https://alextaylor.dev}{alextaylor.dev} \quad|\quad \href{https://linkedin.com/in/alex-taylor-de}{linkedin.com/in/alex-taylor-de} \quad|\quad \href{https://github.com/alextaylor-data}{github.com/alextaylor-data}
+\end{center}
+
+\section*{PROFESSIONAL SUMMARY}
+Senior Data Engineer with 4+ years of enterprise experience architecting real-time streaming pipelines, cloud data warehouses, and scalable ELT workflows. Demonstrated track record of processing \textbf{3TB+} daily data volume, reducing batch pipeline runtime by \textbf{45\%}, and cutting cloud compute expenses by \textbf{\pounds35,000 annually}. Expert in Python, SQL, Apache Spark, Kafka, and dbt. Available immediately; full UK work authorisation, no sponsorship required.
+
+\section*{CORE SKILLS}
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Data Engineering} & Distributed ETL/ELT, Stream Processing, Data Modeling (Kimball/Star Schema), Data Warehousing \\
+\textbf{Languages \& Frameworks} & Python (PySpark, Pandas), SQL, Apache Spark, Kafka, dbt, Apache Airflow \\
+\textbf{Cloud \& Platforms} & AWS (S3, EMR, Redshift, Lambda), Snowflake, Databricks, PostgreSQL \\
+\textbf{DevOps \& Infrastructure} & Docker, Kubernetes, Terraform, Git, CI/CD Actions, Great Expectations \\
+\textbf{Practices \& Soft Skills} & Data Governance, Agile/Scrum, Stakeholder Collaboration, System Architecture \\
+\end{tabularx}
+
+\section*{PROFESSIONAL EXPERIENCE}
+
+\textbf{Senior Data Engineer} \hfill \textbf{Mar 2023 -- Present} \\
+\textit{Enterprise FinTech Group} \hfill London, UK
+\begin{itemize}
+    \item Architected and deployed a multi-tenant streaming pipeline using Apache Kafka and Spark Streaming, processing \textbf{3TB+ of real-time transactions daily} across 8 regional services with 99.99\% pipeline availability.
+    \item Re-engineered legacy nightly batch pipelines in dbt and Snowflake, reducing total execution runtime by \textbf{45\%} (from 4.5 hours to 2.5 hours) and accelerating business analytics delivery.
+    \item Spearheaded cloud cost optimization initiatives across AWS EMR and Snowflake warehouses, eliminating idle clusters and reducing annual infrastructure overhead by \textbf{\pounds35,000}.
+    \item Implemented automated data contract validation and monitoring using Great Expectations and Airflow, catching \textbf{98\%} of upstream schema drifts before downstream warehouse ingestion.
+    \item Mentored 4 junior engineers on distributed data modeling, code review standards, and CI/CD best practices, improving engineering sprint velocity by \textbf{25\%}.
+\end{itemize}
+\vspace{8pt}
+
+\textbf{Data Engineer} \hfill \textbf{Feb 2021 -- Mar 2023} \\
+\textit{Cloud Analytics Consulting} \hfill Manchester, UK
+\begin{itemize}
+    \item Designed and maintained 15+ automated ELT pipelines delivering clean dimensional models to Tableau and Power BI dashboards serving \textbf{500+ commercial stakeholders}.
+    \item Migrated \textbf{12TB} of on-premises SQL Server data to cloud storage (Amazon S3 and Snowflake) with zero operational downtime and 100\% data reconciliation.
+    \item Automated orchestration of daily workflows with Apache Airflow, replacing manual scheduling and saving the operations team \textbf{12+ hours per week}.
+    \item Collaborated with product and data science teams to build feature stores and clean training datasets, cutting model feature extraction time by \textbf{30\%}.
+\end{itemize}
+
+\section*{KEY ACHIEVEMENTS}
+\begin{itemize}
+    \item Slashed annual compute and cloud warehouse expenditures by \textbf{\pounds35,000} via query optimization and cluster rightsizing.
+    \item Scaled real-time event pipeline to reliably ingest \textbf{3TB+ of daily events} at sub-second streaming latencies.
+    \item Accelerated core batch data pipelines by \textbf{45\%}, unlocking same-day operational reporting for executive leadership.
+    \item Successfully migrated \textbf{12TB} legacy database storage to modern cloud data lake with zero data loss.
+\end{itemize}
+
+\section*{EDUCATION}
+\textbf{MSc Data Science} \hfill \textit{2022 -- 2023} \\
+University of Manchester \hfill \textit{Distinction} \\ \vspace{4pt}
+\textbf{BSc Computer Science} \hfill \textit{2017 -- 2021} \\
+University of Birmingham \hfill \textit{First Class Honours}
+
+\section*{AVAILABILITY \& WORK AUTHORISATION}
+\textbf{Right to Work:} Full UK work authorisation --- no sponsorship required \\
+\textbf{Availability:} Available immediately for permanent, contract, and remote roles \\
+\textbf{Location:} London, UK --- open to hybrid and remote roles nationally
+
+\end{document}
+

@@ -1,0 +1,33 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# LaTeX compilation auxiliary files
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.nav
+*.snm
+*.vrb
+*.bbl
+*.blg
+
+# Local compiled test outputs (keep repository clean)
+*.dvi
+*.ps
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
